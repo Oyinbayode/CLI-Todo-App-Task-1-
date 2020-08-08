@@ -80,10 +80,11 @@ if (command === 'list' || command === 'l') {
 
 // If Command is View
 if (command === 'view' || command === 'v') {
+  const index = yargs.index;
   // Log TODO}
-  if (Todo.list().length === 0) {
+  if (Todo.list().length === 0 || index >= Todo.list().length) {
     console.log('Please Add a Task\nNo Task Found')
-  } else console.log(Todo.view(yargs.index));
+  } else console.log(Todo.view(index));
 }
 
 // If Command is Remove
@@ -91,7 +92,7 @@ if (command === 'remove' || command === 'r') {
   // Fetch all data from DB
   const db = Todo.list();
 
-  if (db.length === 0) {
+  if (db.length === 0 || yargs.index >= db.length) {
     console.log('Please Add a Task\nNo Task Found')
   } else {
     Todo.remove(yargs.index);
@@ -111,7 +112,7 @@ if (command === 'deleteAll' || command === 'd') {
 // If command is toggle
 if (command === 'toggle' || command === 't') {
   // Toggle todo Status
-  if (Todo.list().length === 0) {
+  if (Todo.list().length === 0 || yargs.index >= Todo.list().length) {
     console.log('Please Add a Task\nNo Task Found')
   } else {
     Todo.alt(yargs.index);
