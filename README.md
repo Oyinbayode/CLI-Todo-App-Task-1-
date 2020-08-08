@@ -15,11 +15,11 @@ e.g
 
 3. view / v [to view a single ToDo Entry]
 e.g
-"node index.js v --index <index number>"
+"node index.js v --index *<index number>*"
  
  4. remove / r [to delete individual entry]
  e.g
- "node index.js r --index <index number>"
+ "node index.js r --index *<index number>*"
  
  5. deleteAll / d [to delete all ToDo Entries]
  e.g
@@ -27,4 +27,4 @@ e.g
  
  6. toggle / t [To indicate task Completion]
  e.g
- "node index.js t --index <index number>"
+ "node index.js t --index *<index number>*"
