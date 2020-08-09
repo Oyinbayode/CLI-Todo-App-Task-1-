@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Lightning fast TodoList",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oyinbayode/CLI-Todo-App.git"
+  },
   "preferGlobal": true,
   "bin": {
     "todolist": "bin/index.js"
