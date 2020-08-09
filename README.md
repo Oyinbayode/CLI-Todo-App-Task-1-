@@ -1,6 +1,13 @@
-# CLI-Todo-App
+# CLI-Todo-App First Task
  
+ Download 
  Install Dependencies using "npm install"
+ 
+# Dependencies Used
+ 1. Yargs: For Handling App commands
+ 2. Chalk.js: For Styling Command Line Outputs
+ 
+#
 
 Commands for Todo App
 -
