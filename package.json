@@ -1,6 +1,6 @@
 {
   "name": "cli-todolist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightning fast TodoList",
   "main": "index.js",
   "repository": {
