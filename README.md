@@ -1,7 +1,13 @@
-# CLI-Todo-App
- 
- Install Dependencies using "npm install"
+# CLI-Todo-App First Task
+A simple CommandLine ToDo App to keep track of your schedule
 
+# Installation
+run "npm install to install dependencies"
+ 
+# Dependencies Used
+ 1. Yargs: For Handling App commands
+ 2. Chalk.js: For Styling Command Line Outputs
+ 
 Commands for Todo App
 -
 
@@ -17,9 +23,10 @@ e.g
 e.g
 "node index.js v --index i //(i is index number)"
  
- 4. remove / r [to delete individual entry]
- e.g
- "node index.js r --index i //(i is index number)"
+4. remove / r [to delete individual entry]
+e.g
+"node index.js r --index i //(i is index number)"
+ 
  
  5. deleteAll / d [to delete all ToDo Entries]
  e.g
