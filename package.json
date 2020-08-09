@@ -16,7 +16,11 @@
   },
   "author": "Javascript-team-R",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "todo",
+    "add",
+    "list"
+  ],
   "dependencies": {
     "chalk": "^4.1.0",
     "yargs": "^15.4.1"
