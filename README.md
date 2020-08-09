@@ -1,4 +1,4 @@
-# CLI-Todo-App First Task
+# CLI-Todo-App First Task (Team R)
 A simple CommandLine ToDo App to keep track of your schedule
 
 # Installation
