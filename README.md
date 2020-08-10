@@ -12,6 +12,8 @@ run "npm install to install dependencies"
 - The Todo app will come in Handy for developers who wants to keep track of activities while coding on the command Line Interface
 
 - The App has an Add, List, View, DeleteAll and remove feauture to aid and speed up efficiency
+
+- The App's simplicity makes it extremely flexible and easy to use.
  
 # Commands for Todo App
 
